@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/cc.css" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			rel="stylesheet"
+		/>
+
+		<title>C.Converter</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h2>GG Currency Converter</h2>
+			<form action="#">
+				<div class="form__control">
+					<label for="amount" class="title__amount">Enter Amount</label>
+					<input type="text" id="amount" value="1" />
+				</div>
+				<div class="drop__list">
+					<div class="from">
+						<p>From</p>
+						<div class="select__box">
+							<img
+								src="https://www.countryflags.io/us/flat/48.png"
+								alt="countries"
+							/>
+							<select name="" id="from">
+							
+							</select>
+						</div>
+					</div>
+
+					<div class="icon" style="margin-top: 30px; cursor: pointer">
+						<i class="fas fa-exchange-alt"></i>
+					</div>
+
+					<div class="to">
+						<p>To</p>
+						<div class="select__box">
+							<img
+								src="https://www.countryflags.io/my/flat/48.png"
+								alt="countries"
+							/>
+							<select name="" id="to">
+							
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="exchange__rate">
+					<span id="text">1 MYR = 666 USD</span>
+				</div>
+				<button id="submit">Press ME</button>
+			</form>
+		</div>
+		<script src="./assets/js/country-list.js"></script>
+		<script src="./assets/js/cc.js"></script>
+	</body>
+</html>

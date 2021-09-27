@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #1a7ead;
+	font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+	background-color: white;
+	padding: 2.5rem 1.5rem 3rem;
+	border-radius: 15px;
+	-webkit-box-shadow: 15px 17px lightblue;
+	box-shadow: 15px 17px lightblue;
+}
+
+.wrapper h2 {
+	font-size: 1.2rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.wrapper form {
+	margin: 40px 20px;
+}
+
+.wrapper .form__control {
+	position: relative;
+}
+
+.wrapper .form__control label {
+	background: lightblue;
+}
+
+.wrapper .form__control input {
+	width: 100%;
+	padding: 1rem;
+	margin-top: 20px;
+	border-radius: 10px;
+	outline: none;
+}
+
+.wrapper .drop__list {
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	margin: 20px 0 20px 0;
+}
+
+.wrapper .drop__list p {
+	font-size: 1rem;
+	margin-bottom: 5px;
+}
+
+.wrapper .drop__list .select__box {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 115px;
+	height: 45px;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	border-radius: 5px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	border: 1px solid #999;
+}
+
+.wrapper .drop__list .select__box img {
+	max-width: 25px;
+}
+
+.wrapper .drop__list .select__box select {
+	width: auto;
+	font-size: 1rem;
+	background: none;
+	border: none;
+	outline: none;
+	margin: 0 -5px 0 5px;
+}
+
+.wrapper .drop__list .select__box select::-webkit-scrollbar {
+	width: 8px;
+}
+
+.wrapper .drop__list .select__box select::-webkit-scrollbar-track {
+	background: #fff;
+}
+
+.wrapper .drop__list .select__box select::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 8px;
+	border-right: 2px solid #ffffff;
+}
+
+.wrapper .drop__list .select__box .icon {
+	cursor: pointer;
+	margin-top: 30px;
+	font-size: 22px;
+}
+
+
+.wrapper .exchange__rate {
+	font-size: 1.2rem;
+	margin: 20px 0 30px;
+}
+
+button {
+	width: 100%;
+	padding: 1rem;
+	background: lightblue;
+	color: white;
+	border: none;
+	font-size: 1rem;
+	font-weight: 600;
+	border-radius: 15px;
+	cursor: pointer;
+}
